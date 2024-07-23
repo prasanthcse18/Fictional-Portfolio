@@ -1,0 +1,84 @@
+@mixin bullet-shape($side,$color,$border-rad) {
+    width:$side;
+    height: $side;
+    color:$color;
+    border-radius: $border-rad;
+}
+
+#homeMainDiv{
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif; 
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+
+.intro-section{
+   flex: 70%; 
+   font-size: 30px;
+   color:#333743;
+   font-weight: 800;
+   margin-left: 15%;
+}
+
+app-header{
+    display: list-item;
+}
+
+.img-class{
+    height: calc(100% - 170px);
+    width: calc(100% - 1018px);
+}
+
+.image-style{
+    border-radius: 5%;
+}
+
+.breif-section{
+ margin-top: 3%;
+ color: #808185;
+ font-size: 12px;
+ font-weight: 300;
+}
+}
+
+.skill-section{
+    display: flex;
+    flex-direction: column;
+
+
+.MySkillsTittle{
+    font:24px "Roboto", sans-serif;
+    font-weight: 600;
+    color: #313743;
+    margin-left: 3%;
+}
+
+.skill-list-style{
+ display: flex;
+ flex-direction: row;
+ flex: 100%;
+ margin-left: 3%;
+}
+
+.skill-list-section{
+    font:14px "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 33.33%;
+    color: #393a46;
+    margin-top: 2%;
+}
+
+.skill-list-item{
+    color: #44444b;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+}
+
+.bullet-point{
+    @include bullet-shape(10px,#808185,10%);
+    display: inline-block;
+    margin-right:1%;
+}
