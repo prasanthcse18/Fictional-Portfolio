@@ -1,0 +1,56 @@
+.header-style{
+    font-family: "Roboto", sans-serif;
+    position: fixed;
+    min-width: 100%;
+}
+
+#header-tittle{
+    color: #1a1b20;
+    font-weight: 600;
+    flex: 60%;
+    margin-top: 11px;
+    margin-left: 3%;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    color: #97989b;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .mainDiv{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #navBarId{
+    margin-right: 6%;
+  }
+
+  li a:hover{
+    color: #775ebb;
+    font-weight: 700;
+  }
+
+  li a{
+    text-decoration: none;
+    color: #97989b;
+  }
+
+  @media screen and (max-width: 700px) {
+    .mainDiv {   
+      flex-direction: column;
+    }
+  }
+  
