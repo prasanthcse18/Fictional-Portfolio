@@ -1,7 +1,10 @@
 .header-style{
     font-family: "Roboto", sans-serif;
     position: fixed;
-    min-width: 100%;
+    min-width: 99%;
+    box-shadow:  0 0 10px #d8d8d8;
+    background-color: #FAEBD7;
+    margin-top: -1%;
 }
 
 #header-tittle{
@@ -43,14 +46,41 @@ li {
     font-weight: 700;
   }
 
+  li a:active{
+    color: #775ebb;
+    font-weight: 700;
+  }
+
   li a{
     text-decoration: none;
-    color: #97989b;
   }
 
   @media screen and (max-width: 700px) {
     .mainDiv {   
       flex-direction: column;
     }
+  } 
+
+  @media screen and (max-width: 1024px) {
+    .header-style{
+      margin-top: -1vh;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .header-style{
+      margin-top: -3vh;
+    }
+  }
+
+  .activeClass{
+    color: #775ebb;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .inactiveClass{
+    text-decoration: none;
+    color: #97989b;
   }
   
