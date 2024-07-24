@@ -28,9 +28,11 @@
         flex-direction: row;
         flex: 50%;
     }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
         .project-info{
             flex-direction: column;
+            margin-left: 2%;
+
         }
     }
     .project-description{
@@ -49,10 +51,11 @@
         align-items: flex-end;
     }
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 426px) {
         .date-time-info{
             flex-direction: row;
             margin-bottom: 2%;
+            margin-left: 2%;
         }
     }
 
