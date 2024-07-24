@@ -46,6 +46,11 @@ li {
     font-weight: 700;
   }
 
+  li a:active{
+    color: #775ebb;
+    font-weight: 700;
+  }
+
   li a{
     text-decoration: none;
     color: #97989b;
@@ -59,7 +64,7 @@ li {
 
   @media screen and (max-width: 1024px) {
     .header-style{
-      margin-top: -20vh;
+      margin-top: -vh;
     }
   }
   

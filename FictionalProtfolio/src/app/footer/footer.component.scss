@@ -8,6 +8,7 @@
     align-items: center;
     color: #fffffe;
     width: 98vw;
+    position: relative;
 
 
     .connect-message{
@@ -23,7 +24,7 @@
         }
     }
 
-    @media screen and (min-width: 425px) {
+    @media screen and (max-width: 425px) {
         .connect-message{
             font-size: 25px;
         }
