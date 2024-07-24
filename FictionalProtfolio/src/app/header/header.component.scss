@@ -55,5 +55,11 @@ li {
     .mainDiv {   
       flex-direction: column;
     }
+  } 
+
+  @media screen and (max-width: 1024px) {
+    .header-style{
+      margin-top: -20vh;
+    }
   }
   
