@@ -1,7 +1,7 @@
 @mixin bullet-shape($side,$color,$border-rad) {
     width:$side;
     height: $side;
-    color:$color;
+    background-color:$color;
     border-radius: $border-rad;
 }
 
@@ -81,4 +81,17 @@ app-header{
     @include bullet-shape(10px,#808185,10%);
     display: inline-block;
     margin-right:1%;
+}
+
+#work-section{
+    display: flex;
+    flex-direction: column;
+
+.MyWorkTittle{
+    font:24px "Roboto", sans-serif;
+    font-weight: 600;
+    color: #313743;
+    margin-left: 3%;
+}
+
 }
