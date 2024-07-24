@@ -1,97 +1,94 @@
-#pottfilio-parent{
-    font-family: "Roboto", sans-serif;
-    display: flex;
-    flex-direction: column;
-    width:100%;
+#pottfilio-parent {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 
-#firstProject{
+  #firstProject {
     display: flex;
     flex-direction: column;
     margin-left: 3%;
     margin-right: 7%;
-    .skill-tittle{
-        flex-direction: column;
-        color: #714ec5;
-        font-size: 12px;
-        font-weight: 400;
-        margin-top: 10vh;
+    .skill-tittle {
+      flex-direction: column;
+      color: #714ec5;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 10vh;
     }
-    .project-tittle{
-        margin-top: 2%;
-        color: #323442;
-        font-size: 32px;
-        font-weight: 800;
+    .project-tittle {
+      margin-top: 2%;
+      color: #323442;
+      font-size: 32px;
+      font-weight: 800;
     }
-    .project-info{
-        margin-top: 2%;
-        display: flex;
-        flex-direction: row;
-        flex: 50%;
+    .project-info {
+      margin-top: 2%;
+      display: flex;
+      flex-direction: row;
+      flex: 50%;
     }
     @media screen and (max-width: 426px) {
-        .project-info{
-            flex-direction: column;
-            margin-left: 2%;
-
-        }
-    }
-    .project-description{
-        display: flex;
-        font-size: 14px;
-        line-height: 22px;
-        flex-direction: row;
-        flex: 50%;
-        text-align: justify;
-    }
-    .date-time-info{
-        display: flex;
+      .project-info {
         flex-direction: column;
-        flex: 50%;
-        font-size: 13px;
-        align-items: flex-end;
+        margin-left: 2%;
+      }
+    }
+    .project-description {
+      display: flex;
+      font-size: 14px;
+      line-height: 22px;
+      flex-direction: row;
+      flex: 50%;
+      text-align: justify;
+    }
+    .date-time-info {
+      display: flex;
+      flex-direction: column;
+      flex: 50%;
+      font-size: 13px;
+      align-items: flex-end;
     }
 
     @media screen and (max-width: 426px) {
-        .date-time-info{
-            flex-direction: row;
-            margin-bottom: 2%;
-            margin-left: 2%;
-        }
-    }
-
-    .project-work{
-        display: flex;
-        flex-direction: column;
-        flex: 100%;
-    }
-
-    .image-style{
-        margin-top: 2%;
-        height: 60vh;
-        width: 80vw;
-        box-shadow:  0 0 5px #d8d8d8;
-        border-radius: 8px;
-    }
-
-    .gallery{
-        margin-top: 2%;
-        display: flex;
+      .date-time-info {
         flex-direction: row;
-        margin-bottom: 3%;
-    .second-photo{
+        margin-bottom: 2%;
+        margin-left: 2%;
+      }
+    }
+
+    .project-work {
+      display: flex;
+      flex-direction: column;
+      flex: 100%;
+    }
+
+    .image-style {
+      margin-top: 2%;
+      height: 60vh;
+      width: 80vw;
+      box-shadow: 0 0 5px #d8d8d8;
+      border-radius: 8px;
+    }
+
+    .gallery {
+      margin-top: 2%;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 3%;
+      .second-photo {
         flex: 60%;
         width: 43vw;
         height: 20vh;
-    }
-    .third-photo{
+      }
+      .third-photo {
         margin-left: 2%;
         flex: 40%;
-        width:35vw;
-        height:20vh;
+        width: 35vw;
+        height: 20vh;
         margin-top: 1.2%;
+      }
     }
-    }
-    
-}
-
+  }
 }

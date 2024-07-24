@@ -1,11 +1,29 @@
 <div class="header-style">
-    <div class="mainDiv">
+  <div class="mainDiv">
     <div id="header-tittle">Fictional Portfolio</div>
     <div id="navBarId">
-    <ul>
-        <li><a [ngClass]="homeClass" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="navigateToHome()">Home</a></li>
-        <li><a [ngClass]="portfolioClass" routerLink="/portfolio" routerLinkActive="active" ariaCurrentWhenActive="page"  (click)="navigateToPortfolio()">Portfolio</a></li>
-    </ul>
+      <ul>
+        <li>
+          <a
+            [ngClass]="homeClass"
+            routerLink="/home"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            (click)="navigateToHome()"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            [ngClass]="portfolioClass"
+            routerLink="/portfolio"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            (click)="navigateToPortfolio()"
+            >Portfolio</a
+          >
+        </li>
+      </ul>
     </div>
-    </div>
+  </div>
 </div>
